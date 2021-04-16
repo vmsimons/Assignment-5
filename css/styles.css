@@ -18,6 +18,11 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
 /*Header Styling*****************/
 
 header {
@@ -49,13 +54,6 @@ header nav a {
   padding: 400px 0;
   background-attachment: fixed;
   background-size: cover;
-}
-
-/*Container Styling*****************/
-
-.container {
-  margin: 0 auto;
-  max-width: 800px;
 }
 
 /*About Section Styling*****************/

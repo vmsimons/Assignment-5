@@ -18,6 +18,11 @@
     font-family: 'Open Sans', sans-serif;
   }
 
+	.container {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+
   /*Header Styling*****************/
 
   header {
@@ -40,11 +45,6 @@
     font-weight: 1000;
     font-size: 20px;
     margin: 0 20px;
-  }
-
-  .container {
-    margin: 0 auto;
-    max-width: 800px;
   }
 
   footer {
