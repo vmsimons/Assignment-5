@@ -38,6 +38,7 @@
           <p>The first fan conventions dedicated to Supernatural took place in Nashville, Tennessee, in October 2006 and in London in May 2007, and conventions have since expanded through to Germany and throughout the United States. The series' stars and large guest cast make appearances, with fans from the United States, Europe, China, and Australia attending.</p>
 
           <div class="main-characters">
+            <h2>Main Characters</h2>
             <div class="sam-dean-cass">
               <p>Sam Winchester</p>
               <img src="images/sam.jpeg" alt="Sam" title="Sam" width="200 "/>
@@ -100,7 +101,8 @@
         <section class="contact-section" id="contact">
           <h2>Join the Hunt</h2>
           <p>Subscribe today to access exclusive content and be entered into the sweepstakes to win two tickets to the Supernatural Convention in Rosemont, IL in June 2022!</p>
-          <form class="contact-form" name="firstform" method="POST" action="">
+          <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+
             <div class="first-name input-section">
               <label for="firstname" class="label_input_wrap">First Name:</label>
               <input type="text" name="req_firstname" id="firstname" />
@@ -135,7 +137,9 @@
 
     </main>
 
-
+    <footer>
+      <p>Created by: Veronica Simons</p>
+    </footer>
 
   </body>
 </html>

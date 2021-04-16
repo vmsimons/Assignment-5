@@ -70,6 +70,17 @@ header nav a {
   line-height: 24px;
 }
 
+.about-section p:nth-child(2):first-letter {
+    font-size: 23px;
+    color: #434031;
+    font-weight: bold;
+}
+
+.main-characters h2 {
+  text-align: center;
+  padding: 20px 0px 10px;
+}
+
 .sam-dean-cass {
   display: inline-block;
   width: 250px;
@@ -78,9 +89,9 @@ header nav a {
 }
 
 .sam-dean-cass img {
-    width: 250px;
-    height: 250px;
-    object-fit: contain;
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
 }
 
 /*Section-Break Styling*****************/
@@ -96,21 +107,42 @@ header nav a {
 /*Characters Section Styling*****************/
 
 .characters h2 {
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
 
 .other-characters {
-    width: 250px;
-    display: inline-block;
-    text-align: center;
+  width: 250px;
+  display: inline-block;
+  text-align: center;
+  margin: 15px 0px;
 }
 
 .other-characters img {
-    width: 250px;
-    height: 250px;
-    object-fit: contain;
-    padding-bottom: 15px;
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  padding: 3px 0px 10px;
+}
+
+.other-characters:nth-child(even) {
+  background: #f2f2f2;
+}
+
+/*Contact Section Styling*****************/
+
+.contact-section {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-section h2 {
+  text-align: center;
+  padding: 30px 0px 10px;
+}
+
+.contact-section p {
+  line-height: 24px;
 }
 
 /*Contact Form Styling*****************/
@@ -123,12 +155,39 @@ header nav a {
   margin: 0 auto;
 }
 
+.contact-form input {
+  border: 1px solid black;
+  padding: 9px 11px;
+}
+
+.contact-form div {
+  margin-bottom: 10px;
+}
+
 .label_input_wrap {
   display: block;
 }
 
+.contact-form h3 {
+  padding: 10px 0px;
+}
+
 .submit input {
-  background: ;
-  color: ;
-  padding: 5px 20px
+  background: #434031;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.submit input:hover {
+  color: #b48e61;
+}
+/*Footer Styling*****************/
+
+footer {
+  background: #434031;
+  color: white;
+  text-align: center;
+  padding: 10px 0px;
 }
