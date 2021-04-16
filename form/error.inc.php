@@ -19,9 +19,11 @@
   }
 
 	.container {
-    margin: 0 auto;
-    max-width: 800px;
-  }
+	  margin: 0 auto;
+	  max-width: 800px;
+	  min-height: 85vh;
+	  padding-top: 100px;
+	}
 
   /*Header Styling*****************/
 
