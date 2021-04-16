@@ -152,7 +152,7 @@ header nav a {
   max-width: 500px;
   border-radius: 4px;
   font-family: 'Open Sans', sans-serif;
-  margin: 0 auto;
+  margin: 0 0 35px auto;
 }
 
 .contact-form input {
@@ -183,6 +183,7 @@ header nav a {
 .submit input:hover {
   color: #b48e61;
 }
+
 /*Footer Styling*****************/
 
 footer {
