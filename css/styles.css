@@ -1,0 +1,134 @@
+/*Universal Styling*****************/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Tinos', serif;
+  text-transform: uppercase;
+  color: #434031;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*Header Styling*****************/
+
+header {
+  background: #434031;
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 1000;
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+/*Hero-image Section Styling*****************/
+
+.hero-image {
+  background-image: url('../images/hero-image.jpeg');
+  padding: 400px 0;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*Container Styling*****************/
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+/*About Section Styling*****************/
+
+.about-section h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.about-section p {
+  padding: 20px 0px 0px;
+  line-height: 24px;
+}
+
+.sam-dean-cass {
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+  padding: 0px 0px 65px;
+}
+
+.sam-dean-cass img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+
+/*Section-Break Styling*****************/
+
+.section-break {
+  background-image: url(../images/section-break.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+  padding: 500px 0;
+}
+
+/*Characters Section Styling*****************/
+
+.characters h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.other-characters {
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+}
+
+.other-characters img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    padding-bottom: 15px;
+}
+
+/*Contact Form Styling*****************/
+
+.contact-form {
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 4px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+}
+
+.label_input_wrap {
+  display: block;
+}
+
+.submit input {
+  background: ;
+  color: ;
+  padding: 5px 20px
+}
